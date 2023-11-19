@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lubu skaiciuokle skaiciuokle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+<body>
+     <div class="header">
+        <div class="left-links"><a href="../index.html">Remonto medžiagų skaičiuoklė</a></div>
+        <div class="right-links"> 
+            <ul>
+                <li><a href="skaiciuokle/lubos.html">Lubos</a></li>
+                <li><a href="skaiciuokle/grindys.html">Sienos</a></li>
+                <li><a href="skaiciuokle/grindys.html">Grindys</a></li>
+            </ul>
+        </div>
+     </div>
+     <div class="Information">
+        <div class="part1">
+            <div class="text">
+                <div class="text1">Namai reikalauja remonto ?</div>
+                <div class="text2">Namuose reikia remonto, bet nežinai kiek reikia pirkti medžiagų? Nebijok, pasirink norimą sritį ir mes viską paskaičiuosime už tave!</div>
+            </div>
+            <div class="image">
+                <img src="../images/workman.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="skaiciuokle">
+        <div class="duomenys">
+            <div class="text3"><h1>Suvekite lubų matmenys</h1></div>
+            <div class>
+                <label for="lubuplotis">Plotis:</label>
+                <input type="number" name="plotis" id="plotislub" min="0"></div>
+                <div><label for="lubuilgis">Ilgis:</label>
+                <input type="number" name="ilgis" id="ilgislub" min="0"></div>
+                <button onclick="calculate()">Skaičiuoti</button>
+                <p id="result"></p>
+        </div>      
+    </div>
+    <div class="footer">Jono project start date 2023/11/08</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate with Input Field</title>
+</head>
+<body>
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput">
+    <button onclick="calculate()">Calculate Square</button>
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            
+            const inputValue = document.getElementById('numberInput').value;
+            
+            // Perform calculations (Calculate the square)
+            const result = inputValue * inputValue;
+
+            // Display the result
+            document.getElementById('result').innerText = `The square is: ${result}`;
+        }
+    </script>
+</body>
+</html>
